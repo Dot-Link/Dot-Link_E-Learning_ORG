@@ -12734,7 +12734,7 @@ textarea.form-control-lg {
   #preloader .logo-preloader {
     margin-right: 10px;
     width: 55%;
-    padding-top: 55%;
+    padding-top: 50%;
   }
   #preloader #loader {
     display: flex;
@@ -12798,7 +12798,8 @@ textarea.form-control-lg {
 /* Styles for small screens */
 @media only screen and (max-width: 450px) {
   .page-nav .pagination li a {
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 9.5px;
   }
 }
 .popup {
