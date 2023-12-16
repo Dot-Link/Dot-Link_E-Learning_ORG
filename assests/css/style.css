@@ -12784,6 +12784,23 @@ textarea.form-control-lg {
     transform: translate(-50%, -50%);
   }
 }
+.page-nav .pagination li a {
+  font-size: 1rem;
+}
+
+/* Styles for large screens */
+/* Styles for medium screens */
+@media only screen and (min-width: 451px) and (max-width: 773px) {
+  .page-nav .pagination li a {
+    font-size: 0.9rem;
+  }
+}
+/* Styles for small screens */
+@media only screen and (max-width: 450px) {
+  .page-nav .pagination li a {
+    font-size: 10px;
+  }
+}
 .popup {
   display: none;
   position: fixed;
